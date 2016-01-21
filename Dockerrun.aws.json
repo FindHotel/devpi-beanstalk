@@ -16,7 +16,7 @@
       "essential": true,
       "memory": 512,
       "mountPoints": [
-      ],
+      ]
     },
     {
       "name": "nginx-proxy",
