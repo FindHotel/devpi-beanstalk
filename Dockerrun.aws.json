@@ -14,9 +14,9 @@
       "image": "innovativetravel/docker-devpi:innovative",
       "environment": [],
       "essential": true,
-      "memory": 128,
+      "memory": 512,
       "mountPoints": [
-      ]
+      ],
     },
     {
       "name": "nginx-proxy",
