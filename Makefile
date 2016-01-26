@@ -4,4 +4,4 @@ deploy:
 
 # run local instance
 local-run:
-	eb local run --profile=$(AWS_PROFILE)
+	eb local run --profile=$(AWS_PROFILE) --envvars AWS_ACCESS_KEY_ID=$(AWS_ACCESS_KEY_ID),AWS_SECRET_ACCESS_KEY=$(AWS_SECRET_ACCESS_KEY),S3_PATH=$(S3_PATH)

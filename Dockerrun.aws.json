@@ -15,6 +15,7 @@
       "environment": [],
       "essential": true,
       "memory": 512,
+      "privileged": true,
       "mountPoints": [
       ]
     },
@@ -33,9 +34,7 @@
         "devpi"
       ],
       "volumesFrom": [
-      {
-        "sourceContainer": "devpi"
-      }],
+      ],
       "mountPoints": [
         {
           "sourceVolume": "nginx-conf",
