@@ -1,3 +1,7 @@
+# set basic auth username and password
+passwd:
+	aws s3 cp --profile=$(AWS_PROFILE) htpasswd $(HTTPASSWD_FILE)
+
 # deploy to given elastic beanstalk environment
 deploy:
 	eb deploy --profile=$(AWS_PROFILE) $(EB_ENVIRONMENT) --staged
