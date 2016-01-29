@@ -45,6 +45,10 @@ You will need to set up such environment variables for your elastic beanstalk en
     S3 path in form `<bucket name>/<folder>`
 * DEVPI_PASSWORD
     password for `root` user for your devpi-server_ instance
+* HTTP_USERNAME
+    basic auth username
+* HTTP_PASSWORD
+    basic auth password
 
 
 License
