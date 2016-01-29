@@ -1,6 +1,10 @@
 Beanstalk deployment configuration for devpi-server
 ---------------------------------------------------
 
+.. image:: https://badges.gitter.im/InnovativeTravel/devpi-beanstalk.svg
+   :alt: Join the chat at https://gitter.im/InnovativeTravel/devpi-beanstalk
+   :target: https://gitter.im/InnovativeTravel/devpi-beanstalk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
 devpi-server_ deployment made easy with Amazon Elastic Beanstalk.
 
 .. _devpi-server: http://doc.devpi.net/latest
