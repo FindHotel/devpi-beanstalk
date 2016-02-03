@@ -34,7 +34,6 @@
         "devpi"
       ],
       "volumesFrom": [
-        "devpi"
       ],
       "mountPoints": [
         {
