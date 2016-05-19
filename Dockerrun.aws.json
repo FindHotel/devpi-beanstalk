@@ -24,10 +24,6 @@
       "image": "nginx",
       "essential": true,
       "memory": 128,
-      "command": [
-        "/bin/bash", "-c",
-        "htpasswd -c -b /etc/nginx/conf.d/htpasswd $HTTP_USERNAME $HTTP_PASSWORD; nginx -g 'daemon off;'"
-      ],
       "portMappings": [
         {
           "hostPort": 80,
